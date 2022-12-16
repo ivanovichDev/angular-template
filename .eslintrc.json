@@ -15,12 +15,12 @@
       "rules": {
         "no-debugger": "error",
         "no-console": "warn",
+        "prettier/prettier": ["off", { "singleQuote": true }],
         "lines-between-class-members": "error",
         "@angular-eslint/directive-selector": [
           "warn",
           {
             "type": "attribute",
-            "prefix": "app",
             "style": "camelCase"
           }
         ],
@@ -28,7 +28,6 @@
           "error",
           {
             "type": "element",
-            "prefix": "app",
             "style": "kebab-case"
           }
         ],
